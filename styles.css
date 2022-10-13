@@ -1,0 +1,150 @@
+* {
+    font-family: Helvetica;
+    
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/*----Header----*/
+header{
+height: 69px;
+width: 100%;
+border-bottom: 1px solid seashell;
+display: inline-flex;
+justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text{
+    padding: 9px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.nav-text:hover{
+    cursor: pointer;
+}
+
+#logo-frame{
+    margin: 10px;
+}
+
+#logo{
+    height: 50px;
+}
+
+/*----Mission----*/
+
+#mission-background{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+#hero-img{
+    height: 700px;
+    min-width: 1200px;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero-img-divider{
+    position: absolute;
+    top: 300px;
+    width: 1200px;
+}
+
+/*----TotM----*/
+
+.tea-list-container{
+    position: relative;
+    display: inline-block;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.item{
+    height: 200px;
+    width: 300px;
+}
+
+.tea p{
+    font-weight: 550;
+}
+
+.tea{
+    padding: 5px;
+}
+
+
+.tea-list {
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+/*----Locations----*/
+
+.locations-block{
+    display: block;
+    position: relative;
+    width: 1200px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.locations-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#background-locations{
+    height: 500px;
+    width: 1200px;
+    min-width: 1200px;
+}
+
+.place{
+    text-align: justify;
+    background-color: black;
+    opacity: 1;
+    position: relative;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    height: 200px;
+    align-items: center;
+    border: 1px solid white;
+    left: -1090px;
+}
+
+.heading{
+    position: absolute;
+    top: 85px;
+    left: 540px;
+    background-color: transparent;
+    font-size: 28px;
+}
+
+
+/*----Footer----*/
+#information{
+    width: 100%;
+    font-size: 25px;
+}
+
+#copyright{
+    width: 200px;
+    font-size: 17px;
+}
